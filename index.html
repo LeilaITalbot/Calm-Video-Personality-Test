@@ -7,21 +7,12 @@
     background-attachment:fixed;
      background-size:cover;
 }
-.HamburgHolder{
-    background-color:#f2f2f2;
-    min-height:100px;
-    font-family: 'Pacifico', cursive;
-    color:#ff9999;
-    text-align:center;
-    font-size:32px;
-    margin:0;
-    padding:0;
-    position:relative; left:0px; top:0px;
-}
+
 .Question,.Answer{
     font-family: 'Special Elite', cursive;
     list-style-type:none;
     position:relative;
+    color:#424242;
 }
 h1{
     margin:0;
@@ -46,19 +37,11 @@ img{
   display: inline-block;
   cursor: pointer;
   background-color:#f2f2f2;
-  
-}
-.change .Hamburg1{
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-9px, 6px) ;
-  position:relative; left:0px; top:0px;
-}
-.change .Hamburg2{
-  opacity: 0;
-}
-.change .Hamburg3{
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-8px, -8px) ;
+  width:100%;
+  font-size:60px;
+  color:#ff9999;
+  font-family: 'Pacifico', cursive;
+  text-align:center;
 }
 .Button{
    font-family: 'Special Elite', cursive;
@@ -80,17 +63,15 @@ button{
     border:20px;
     border-style:solid;
     color:white;
+}
+button:hover{
+    background-color:#424242;
+}
+button:active{
+    background-color:#424242;
 }</style></head>
     <body>
-    <div class="HamburgHolder">
-        <div class="container" onclick="myFunction(this)">
-        <div class="Hamburg1">        
-        </div>
-        <div class="Hamburg2">
-        </div>
-        <div class="Hamburg3">
-        </div>
-    </div>
+    <div class="container">
     <h1>Unruffled</h1>
     </div>
     <div class="Scallop">
@@ -101,7 +82,7 @@ button{
     <div style="text-align:center;">
     <div class="SomeButtons">
     <button type="button">Inspirational Quotes</button>
-    <button type="button">Click Me!</button>
+    <button type="button">Personality Test</button>
     <button type="button">Click Me!</button>
     <button type="button">Click Me!</button>
     </div>
