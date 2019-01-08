@@ -1,0 +1,79 @@
+.Image{
+    background-position:center;
+    background-attachment:fixed;
+     background-size:cover;
+}
+.HamburgHolder{
+    background-color:#f2f2f2;
+    min-height:100px;
+    font-family: 'Pacifico', cursive;
+    color:#ff9999;
+    text-align:center;
+    font-size:32px;
+    margin:0;
+    padding:0;
+    position:relative; left:0px; top:0px;
+}
+.Question,.Answer{
+    font-family: 'Special Elite', cursive;
+    list-style-type:none;
+    position:relative;
+}
+h1{
+    margin:0;
+    padding:0;
+}
+.Scallop{
+      background: 
+  radial-gradient(circle at 50% 0%, #f2f2f2 25%, #cccccc 26%, #ffffff  40%);
+  min-height:200px;
+  background-size:100px;
+}
+.Hamburg3, .Hamburg2, .Hamburg1{
+  width: 35px;
+  height: 5px;
+  background-color: #ff9999;
+  margin: 6px 0;
+}
+img{
+  width:100%;  
+}
+.container {
+  display: inline-block;
+  cursor: pointer;
+  background-color:#f2f2f2;
+  
+}
+.change .Hamburg1{
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+  position:relative; left:0px; top:0px;
+}
+.change .Hamburg2{
+  opacity: 0;
+}
+.change .Hamburg3{
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+.Button{
+   font-family: 'Special Elite', cursive;
+   font-size:25px;
+   text-align:center;
+   padding:20px;
+   border:0px;
+   background-color:white;
+}
+li:hover{
+    color:#ff9999;
+}
+button{
+    background-color:#ff9999;
+    border:0px;
+    font-family: 'Special Elite', cursive;
+    padding:20px;
+    font-size:20px;
+    border:20px;
+    border-style:solid;
+    color:white;
+}
